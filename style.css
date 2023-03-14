@@ -72,6 +72,11 @@
 
 
     color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    transform: translateY(1px);
 }
 
 .menu__link__vektor{
@@ -91,6 +96,7 @@
 }
 
 .footer__{
+    margin-top: 64px;
     background-color: black;
 
     /* padding: 40px; */
@@ -182,6 +188,7 @@
 /* artyom */
 
 .carousel__img {
+    max-width: 100%;
     position: relative;
     z-index: -1;
 }
@@ -228,6 +235,10 @@ color: #FFFFFF;
     max-height: 100%;
 }
 
+.whattosee {
+    padding-bottom: 68px;
+}
+
 .whattosee__h2 {
     margin-top: 87px;
     margin-left: 100px;
@@ -235,6 +246,8 @@ color: #FFFFFF;
 }
 
 .whattosee__h2 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-left: 40px;
     font-family: 'Roboto';
 font-style: normal;
@@ -272,7 +285,154 @@ line-height: 56px;
 }
 
 .date__text {
-    padding: 40px 20px;
+    padding: 48px 20px;
 }
 
+.whattosee__img {
+    margin-right: 100px;
+}
 
+.whattosee__img img {
+    float: right;
+}
+
+.adds__imgl {
+    padding-right: 40px;
+}
+
+.adds__wrapper {
+    margin-top: 40px;
+}
+
+.adds__images {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.adds__bgreg {
+    position: relative;
+    width: 1373px;
+    height: 331px;
+    background: rgba(13, 183, 155, 0.2);
+    border-radius: 0px 30px;
+    transform: translateX(-49px);
+    z-index: -1;
+}
+
+.adds__pwrapper {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 45px;
+    display: flex;
+    right: 0;   
+}
+
+.adds__pl p {
+    margin-right: 60px;
+    padding-top: 20px;
+    border-top: 2px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 18px */
+    color: #000000;
+}
+
+.adds__pr p {
+    margin-right: 160px;
+    padding-top: 20px;
+    border-top: 2px solid #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 18px */
+    color: #000000;
+}
+
+.btn {
+    padding: 30px 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+}
+
+.btn-green {
+    background: #00A994;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-green:hover {
+    transform: translateY(3px);
+    background: #018374;
+}
+
+.btnwatch {
+    margin-right: 100px;
+    position: absolute;
+    display: inline;
+    right: 0;
+    transform: translateY(-49px);
+}
+
+.add {
+    margin-top: 72px;
+    text-align: center;
+    border-width: 2px 0px;
+border-style: solid;
+border-color: #000000;
+border-radius: 0px;
+}
+
+.add h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.poster__wrapper {
+    margin-top: 62px;
+    text-align: center;
+}
+
+.poster__rect {
+    display: inline-block;
+    width: 1240px;
+    background: #00A994;
+}
+
+.poster__rect h3 {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.poster__pictures {
+    margin-top: 20px;
+}
+
+.poster__pictures img {
+    padding-right: 15px;
+}
+
+.poster__pictures img:last-child {
+    padding-right: 0px;
+}
