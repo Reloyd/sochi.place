@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="C:\Users\Artyom\Downloads\normalize.css">
     <link rel="icon" href="img/mainpage/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="script.js">
     <title>SOCHI.PLACE</title>
 </head>
 <body>
@@ -32,11 +33,17 @@
       <div class="carousel">
         <div class="carousel__wrapper">
           <div class="carousel__buttons">
-            <img src="img/mainpage/кнопка.svg" alt="" class="carousel__buttonl">
-            <img src="img/mainpage/кнопка.svg" alt="" class="carousel__buttonr">
+            <a class="prev" onclick="plusSlides(-1)"><img src="img/mainpage/кнопка.svg" alt="" class="carousel__buttonl"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="img/mainpage/кнопка.svg" alt="" class="carousel__buttonr"></a>
           </div>
           <div class="carousel__bg">
             <img src="img/mainpage/Rectangle 533.svg" alt="" class="carousel__img">
+          </div>
+          <div class="carousel__bg">
+            <img src="img/mainpage/photo_2023-03-16_16-40-15.jpg" alt="" class="carousel__img" style="min-width: 1424px; max-height: 496px;">
+          </div>
+          <div class="carousel__bg">
+            <img src="img/mainpage/photo_2023-03-16_16-40-17.jpg" alt="" class="carousel__img" style="min-width: 1424px; max-height: 500px;">
           </div>
         </div>
         <div class="carousel__border">
