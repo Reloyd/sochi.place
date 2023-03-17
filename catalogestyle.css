@@ -17,6 +17,10 @@ body{
     background-color: #000;
 }
 
+.home {
+    text-decoration: none;
+}
+
 .logo__{
     display: flex;
     align-items: center;
