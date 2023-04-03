@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="C:\Users\Artyom\Downloads\normalize.css">
     <link rel="icon" href="img/mainpage/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="script.js">
     <title>SOCHI.PLACE</title>
 </head>
 <body>
@@ -125,7 +124,6 @@
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
 </body>
 <footer>
   <div class="footer__">
@@ -159,18 +157,37 @@
                           <div class="footer__element__position">
                               <p>Обратная связь</p>
                           </div>
-
                           <div class="footer__element__position">
-                              <a href="#">Для партнеров</a>
+                            <a href="" class="open-popup">Для партнеров</a>
                           </div>
-
+                          <div class="pop_up_body" id="pop_up_body">
+                            <form action="" class="popup">
+                                <h3>Стать партнером</h3>
+                                    <div class="auth">
+                                        <input type="text" placeholder="ФИО">
+                                        <input type="tel" placeholder="Телефон">
+                                        <input type="email" placeholder="e-mail">
+                                    </div>
+                                    <p>Текст обращения</p>
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Введите  текст, о том, что бы Вы хотели сообщить в качестве нашего существующего партнёра, или Ваше предложение в качестве нового сотрудничества"></textarea>
+                                    <div class="chk__container">
+                                        <label for=""><input type="checkbox" name="" id="">Даю согласие на обработку моих персональных данных </label>
+                                        <label for=""><input type="checkbox" name="" id="">Даю согласие на получение мною обратной связи и рассылок от сервиса </label>
+                                    </div>
+                                    <button class="btnd btn-dgreen">
+                                        <span>Отправить заявку</span>
+                                    </button>
+                            </form>
+                            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                        </div>
                           <div class="footer__element__position">
                               <a href="#">Форма заявки</a>
                           </div>
+                          
 
                           <div class="footer__element__position">
                               <a href="#">Отзывы</a>          
-                          </div>     
+                          </div>    
               </div>
                   
               <div class="footer__element">
@@ -187,5 +204,6 @@
 
               </div>
   </div>
+  <script src="script.js"></script>
 </footer>
 </html>
